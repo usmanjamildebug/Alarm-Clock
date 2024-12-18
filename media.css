@@ -1,0 +1,47 @@
+@media (max-width:600px){
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        padding: 0 5vw;
+    }
+    .heading {
+        padding: 4vw 2vw;
+        backdrop-filter: blur(100px);
+        background: hsla(0, 0%, 100%, 0.22);
+        border-radius: 10px;
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+    }
+    .heading p {
+        color: white;
+        font-size: 7vw;
+    }
+    .heading input {
+        width: 100%;
+        align-self: center;
+        border-radius: 5px;
+        border: transparent;
+        padding: 2vw 1.5vw;
+        font-size: 5vw;
+        font-weight: 700;
+        color: beige;
+        backdrop-filter: blur(100px);
+        background: hsla(0, 0%, 100%, 0.2);
+    }
+    .btn button {
+        align-self: center;
+        border-radius: 5px;
+        border: transparent;
+        padding: 3vw 4vw;
+        font-size: 4vw;
+        color: white;
+        backdrop-filter: blur(100px);
+        background: hsla(0, 0%, 100%, 0.2);
+        letter-spacing: 1px;
+    }
+    
+}

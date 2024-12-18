@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/banner.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(3px);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    padding: 3vw 2vw;
+    backdrop-filter: blur(100px);
+    background: hsla(0, 0%, 100%, 0.22);
+    border-radius: 10px;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.heading p {
+    color: white;
+    font-size: 2vw;
+}
+
+.heading input {
+    width: 100%;
+    align-self: center;
+    border-radius: 5px;
+    border: transparent;
+    padding: .8vw 1vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: beige;
+    backdrop-filter: blur(100px);
+    background: hsla(0, 0%, 100%, 0.2);
+}
+
+.btn {
+    display: flex;
+    gap: .5em;
+}
+
+.btn button {
+    align-self: center;
+    border-radius: 5px;
+    border: transparent;
+    padding: .8vw 1vw;
+    font-size: 1vw;
+    color: white;
+    backdrop-filter: blur(100px);
+    background: hsla(0, 0%, 100%, 0.2);
+    letter-spacing: 1px;
+}
